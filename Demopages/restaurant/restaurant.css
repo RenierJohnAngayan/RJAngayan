@@ -50,3 +50,63 @@ header .navigation a:not(:last-child){
 header .navigation a:hover{
     background: rgb(0, 0, 0);
 }
+.content{
+    display: grid;
+    margin-left: -10%;
+    margin-right: 20%;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10em;
+}
+.content > div{
+    padding: 1em;  
+}
+.content > div p{
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 57px;
+    letter-spacing: 1.5px;
+    color:WHITE;
+}
+.content > div > img{
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+}
+@media only screen and (max-width: 1081px){
+    .content{
+        display: grid;
+        margin-left: 15%;
+        margin-right: 10%;
+        grid-template-columns: 50% 50% ;
+        grid-gap: 1em;
+    }
+}
+@media only screen and (max-width: 1040px){
+    .navigationbar{
+        display:none;
+    }
+}
+@media only screen and (max-width: 695px){
+    .content{
+        grid-template-columns: 100% ;
+    }
+}
+@media only screen and (max-width: 597px){
+    .content > div > img{
+        height: 80%;
+    }
+}
+.restaurantname {
+    text-align: center;
+    margin: 250px 150px;
+}
+h1{
+    color: rgb(255, 251, 0);
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
