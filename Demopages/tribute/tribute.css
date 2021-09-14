@@ -126,7 +126,7 @@ header .navigation a:hover{
 }
 
 .media-icons a{
-    position: left;
+    position: center;
     color: #111;
     font-size: 30px;
 }
