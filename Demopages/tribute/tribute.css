@@ -118,6 +118,26 @@ header .navigation a:hover{
 #tribute-info > h3{
     text-align: center;
 }
+.media-icons{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 30px;
+}
+
+.media-icons a{
+    position: left;
+    color: #111;
+    font-size: 30px;
+}
+
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+}
+
+.media-icons a:hover{
+    transform: scale(1.5);
+}
 
 #tribute-info > ul li{
     margin-bottom: 10px;
