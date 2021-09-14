@@ -24,7 +24,7 @@ header{
 
 header .logo{
     position: relative;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 60px;
     text-decoration: none;
     text-transform: uppercase;
@@ -60,17 +60,53 @@ header .navigation a:hover{
 
 #title{
     text-align: center;
+    color: #fff;
 }
 
 #main > p{
     text-align: center;
+    color: #fff;
 }
 
-.vandross{
-    max-width: 600px 100%;
+.Waiian1{
+    max-width: 1000px;
     margin: auto;
-    padding: 15px;
-    background-color: #ffffff;
+    padding: 10px;
+    background-color: #ff4d4d;
+    display: block;
+}
+#tribute-info1{
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.Waiian2{
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    background-color: #ff4d4d;
+    display: block;
+}
+#tribute-info2{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.Waiian3{
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    background-color: #ff4d4d;
+    display: block;
+}
+#tribute-info3{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.Waiian4{
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    background-color: #ff4d4d;
     display: block;
 }
 
