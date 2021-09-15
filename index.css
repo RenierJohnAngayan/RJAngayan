@@ -9,7 +9,7 @@
 
 body{
     
-    background-image: url(Background.jpg);
+    background-image: url(background.jpg);
 }
 
 header{
@@ -59,7 +59,7 @@ header .navigation a:hover{
 }
 
 .content .info h2{
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 700;

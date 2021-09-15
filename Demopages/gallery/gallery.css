@@ -9,7 +9,7 @@
 
 body{
     
-    background-color: #444c38;
+    background: url(Background.jpg);
 }
 
 header{
@@ -92,7 +92,7 @@ h5{
     text-emphasis: 10px;
 }
 h2{
-    color: rgb(255, 251, 0);
+    color: #ff4d4d;
     text-align: center;
     font-size: 80px;
     text-transform: uppercase;
