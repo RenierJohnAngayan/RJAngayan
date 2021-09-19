@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color:#101820FF;
+    background-image: url(Background.jpg);
 }
 header{
     position: absolute;
@@ -19,7 +19,7 @@ header{
     align-items:  center;
 }
 header .logo{
-    color: rgb(255, 251, 0);
+    color: white;
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
@@ -44,7 +44,7 @@ header ul li a{
 header ul li a:hover ,
 header ul li a.active
 {
-    background:  rgb(255, 251, 0);
+    background:  white;
     color: #101820FF;
     transition: 0.5s;
 }
@@ -72,16 +72,16 @@ header ul li a.active
     transform: translateY(10px);
 }
 .card1{
-    background-image: url(img/wyze.png);
+    background-image: url(wyze.jfif);
 }
 .card2{
-    background-image: url(img/josh.jpg);
+    background-image: url(josh.png);
 }
 .card3{
-    background-image: url(img/verkada.png);
+    background-image: url(verkada.png);
 }
 .card4{
-    background-image: url(img/axzon.jpg);
+    background-image: url(axzon.png);
 }
 .card h5{
     color: white;

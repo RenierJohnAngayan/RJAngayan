@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color:#101820FF;
+    background-image: url(Background.jpg);
 }
 header{
     position: absolute;
